@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta letraset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Maquina Enigma</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="titulo">Simulador de Maquina Enigma</h1>
+        <img src="logito.png" alt="logito" title="" class="fotito">
+        <div class="settings">
+            <h3 class="subtitulo"><b>Posicion de rotores:</b></h3>
+            <label for="rotor1"><b>Rotor 1:</b></label>
+            <input type="number" id="rotor1" min="0" max="25" value="0">
+            <div></div>
+            <label for="rotor2"><b>Rotor 2:</b></label>
+            <input type="number" id="rotor2" min="0" max="25" value="0">
+            <label for="rotor3"><b>Rotor 3:</b></label>
+            <input type="number" id="rotor3" min="0" max="25" value="0">
+        </div>
+        <div class="input-output">
+            <textarea id="inputText" placeholder="Ingresa el texto a cifrar/descifrar."></textarea>
+            <button id="encryptButton">Cifrar/Descifrar</button>
+            <textarea id="outputText" placeholder="El texto cifrado/descifrado aparecera aqui."></textarea>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+

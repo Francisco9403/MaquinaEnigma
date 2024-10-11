@@ -48,7 +48,7 @@ La **Máquina Enigma** es un proyecto que simula el funcionamiento de la famosa 
 
 ## Autor
 
-**Francisco9403**
+- [@Luis Francisco Martinez (Francisco9403)](https://github.com/Francisco9403)
 
 
 
